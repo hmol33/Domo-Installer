@@ -1,30 +1,22 @@
 # Domo-Installer
 
-<img src="https://img.shields.io/github/stars/hmol33/Domo-Installer?style=flat-square&color=blue" alt="Stars">
-<img src="https://img.shields.io/github/forks/hmol33/Domo-Installer?style=flat-square&color=green" alt="Forks">
-<img src="https://img.shields.io/github/license/hmol33/Domo-Installer?style=flat-square" alt="License">
+Domo Installer - Home automation installer
 
-Een (menu)script dat je een geleide installatie geeft voor Domoticz.
-
-## Installatie
+## Installation
 
 ```bash
-bash <(curl -Ls https://github.com/hmol33/Domo-Installer/raw/master/Domo-Installer.sh)
+git clone https://github.com/hmol33/Domo-Installer.git
+cd Domo-Installer
 ```
 
-## Gebruik
+## Usage
 
-```bash
-# Voer het installatiescript uit
-bash <(curl -Ls https://github.com/hmol33/Domo-Installer/raw/master/Domo-Installer.sh)
+See the documentation for more information.
 
-# Volg de menu-instructies op het scherm
-```
+## Contributing
 
-## Bijdragers
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-- [hmol33](https://github.com/hmol33) — Onderhouder
+## License
 
-## Licentie
-
-MIT — zie [LICENSE](LICENSE) voor details.
+See [LICENSE](LICENSE) for details.
