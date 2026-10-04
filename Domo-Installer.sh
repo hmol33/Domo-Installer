@@ -13,7 +13,8 @@ DOMOTICZ_DIR="${DOMOTICZ_DIR:-$HOME/domoticz}"
 log() {
     local level="$1"
     shift
-    local msg="[$(date '+%Y-%m-%d %H:%M:%S')] [$level] $*"
+    local msg
+    msg="[$(date '+%Y-%m-%d %H:%M:%S')] [$level] $*"
     echo "$msg"
     echo "$msg" >> "$LOG_FILE" 2>/dev/null || true
 }
@@ -147,7 +148,8 @@ backup_domoticz() {
         exit 1
     fi
 
-    local backup_file="domoticz-backup-$(date +%Y%m%d-%H%M%S).tar.gz"
+    local backup_file
+    backup_file="domoticz-backup-$(date +%Y%m%d-%H%M%S).tar.gz"
     run tar -czf "$backup_file" -C "$(dirname "$DOMOTICZ_DIR")" "$(basename "$DOMOTICZ_DIR")"
     info "Backup opgeslagen als: $backup_file"
 }
