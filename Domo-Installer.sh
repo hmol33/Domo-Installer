@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 MENU(){
   while [ 1 ]
 do
