@@ -1,17 +1,26 @@
 # Domo-Installer
 
-Domo Installer - Home automation installer
+Automated installer for Domoticz home automation system on Debian/Ubuntu.
+
+## Features
+
+- Automated Domoticz installation
+- Dependency resolution
+- Systemd service configuration
+- Web interface setup on port 8080
 
 ## Installation
 
 ```bash
 git clone https://github.com/hmol33/Domo-Installer.git
 cd Domo-Installer
+chmod +x install.sh
+sudo ./install.sh
 ```
 
 ## Usage
 
-See the documentation for more information.
+After installation, access the Domoticz web interface at `http://localhost:8080`.
 
 ## Contributing
 
